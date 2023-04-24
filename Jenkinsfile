@@ -40,7 +40,7 @@ pipeline{
 
 						steps {
 
-							sh 'docker build -t akshayak0262/patient-basicinfo-service:latest .'
+							sh 'docker build -t -f akshayak0262/patient-basicinfo-service:latest .'
 
 							}
 
