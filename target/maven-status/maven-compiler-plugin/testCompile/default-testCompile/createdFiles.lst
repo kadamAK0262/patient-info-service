@@ -1,0 +1,5 @@
+com\revature\G1PatientInfoServiceApplicationTests.class
+com\revature\controllerTest\PatientControllerTest.class
+com\revature\integrationTesting\IntegrationTesting$1.class
+com\revature\integrationTesting\IntegrationTesting.class
+com\revature\serviceImplTest\PatientInfoSerivceImplTest.class

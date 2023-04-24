@@ -1,0 +1,20 @@
+2023-04-25T01:57:41.265+05:30  INFO 16604 --- [restartedMain] c.r.G1PatientInfoServiceApplication      : Starting G1PatientInfoServiceApplication using Java 17.0.6 with PID 16604 (C:\Users\Akshay Pramod Kadam\Desktop\pms-microservices\final-pms-microservices\g1-patientInfo-service\target\classes started by Akshay Pramod Kadam in C:\Users\Akshay Pramod Kadam\Desktop\pms-microservices\final-pms-microservices\g1-patientInfo-service)
+2023-04-25T01:57:41.282+05:30  INFO 16604 --- [restartedMain] c.r.G1PatientInfoServiceApplication      : The following 1 profile is active: "production"
+2023-04-25T01:57:41.363+05:30  INFO 16604 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-25T01:57:42.651+05:30  INFO 16604 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-25T01:57:42.725+05:30  INFO 16604 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+2023-04-25T01:57:43.858+05:30  INFO 16604 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9006 (http)
+2023-04-25T01:57:43.874+05:30  INFO 16604 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-25T01:57:43.875+05:30  INFO 16604 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-25T01:57:44.045+05:30  INFO 16604 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-25T01:57:44.046+05:30  INFO 16604 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2682 ms
+2023-04-25T01:57:45.032+05:30  INFO 16604 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-25T01:57:51.556+05:30  INFO 16604 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68a177bc
+2023-04-25T01:57:51.567+05:30  INFO 16604 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-25T01:57:52.394+05:30  INFO 16604 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-25T01:57:54.961+05:30  INFO 16604 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-25T01:57:55.917+05:30  WARN 16604 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-25T01:57:57.874+05:30  INFO 16604 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-25T01:57:57.893+05:30  INFO 16604 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2023-04-25T01:57:58.073+05:30  INFO 16604 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9006 (http) with context path ''
+2023-04-25T01:57:58.099+05:30  INFO 16604 --- [restartedMain] c.r.G1PatientInfoServiceApplication      : Started G1PatientInfoServiceApplication in 17.554 seconds (process running for 18.691)
